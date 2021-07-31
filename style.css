@@ -1,0 +1,95 @@
+/* immagine nel background */
+
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* area trasparente per scrivere */
+
+.areatesto {
+  background-color: rgba(0, 0 ,0, 0.5);
+  width: 1000px;
+  height: 700px;
+  margin: 30px auto;
+  border-radius: 3%;
+}
+
+/* logo della pagina  */
+
+.logo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#immagine {
+  width: 20%;
+  height: 20%;
+}
+
+.titolo {
+  color: #00DD00;
+  text-align: center;
+}
+
+/* bottoni della pagina */
+
+.pulsanti {
+  background-color: #00DD00;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+/* informazioni sui monopattini */
+
+.primaparte {
+  color: white;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+ p {
+   margin: 0;
+ }
+
+ #barra1 {
+   background-color: #F5B453;
+   width: 250px;
+   height: 30px;
+   border-radius: 0.5em;
+ }
+
+ .secondaparte {
+   color: white;
+   margin-top: 0px;
+   margin-left: 100px;
+   margin-bottom: 0px;
+   padding: 0px;
+ }
+
+ #barra2 {
+   background-color: #1EC31E;
+   width: 500px;
+   height: 30px;
+   border-radius: 0.5em;
+ }
+
+ .terzaparte {
+   color: white;
+   margin-top: 0px;
+   margin-left: 100px;
+   margin-bottom: 0px;
+   padding: 0px;
+ }
+
+ #barra3 {
+   background-color: #BE4141;
+   width: 150px;
+   height: 30px;
+   border-radius: 0.5em;
+ }
